@@ -13,8 +13,8 @@ class chefBot():
         password = self.driver.find_element_by_xpath('/html/body/section/div/div/ul/div[1]/form[1]/div/div[2]/input')
         login_button = self.driver.find_element_by_xpath('/html/body/section/div/div/ul/div[1]/form[1]/div/input[4]')
         
-        username.send_keys('Raviwarlord')
-        password.send_keys('TanX@23298')
+        username.send_keys('Your_username')
+        password.send_keys('Your_password')
         login_button.click()
     
     def go_to_account_section(self):
